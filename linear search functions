@@ -1,0 +1,15 @@
+def my_function(s,s1):
+    for i in range(len(s)):
+        if s[i]==s1:
+            return i
+    return -1
+s=[2,34,73,56,4]
+s1=73
+result=my_function(s,s1)
+if result==-1:
+    print("element not found")
+else:
+    print(f"element found at index {result} and value is {s1}")
+
+output:
+element found at index 2 and value is 73
