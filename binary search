@@ -7,7 +7,7 @@ while low<=high:
     if s[mid]==s1:
         print(f"element found at index {mid}")
         break
-    elif s1>mid:
+    elif s1>s[mid]:
         low=mid+1
     else:
         high=mid-1
